@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+<form action="" method="post">
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" value="{{saves['firstname']}}">
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" value="{{saves['lastname']}}">
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

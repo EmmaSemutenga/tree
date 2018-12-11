@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{firstname}}</h1>
+<h1>{{lastname}}</h1>
+{% endblock %}
+
+<title>{% block title %}Howdy- {{ super() }}{% endblock %}</title>
